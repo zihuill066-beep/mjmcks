@@ -779,7 +779,7 @@ def detect_mood_anomalies(df: pd.DataFrame, threshold: float = 2.0) -> pd.DataFr
 
 # 设置页面
 st.set_page_config(
-    page_title="MoodPattern — 情绪管理助手",
+    page_title="🎈MoodPattern",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -2363,3 +2363,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
