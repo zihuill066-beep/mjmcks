@@ -1204,7 +1204,7 @@ def main():
             st.rerun()
 
     # 主界面
-    st.title("🌈 MoodPattern — 情绪管理助手")
+    st.title("🌈 MoodPattern")
 
     # 检查是否已登录
     if 'current_user' not in st.session_state:
@@ -2361,4 +2361,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
